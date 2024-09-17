@@ -1,0 +1,58 @@
+body{
+    
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.skillmain{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(0, 0, 36);
+    border: 1px solid rgb(246, 255, 0);
+}
+.skilllogo{
+    color:white;
+    font-size: 64px;
+    margin-top: 80px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.image{
+
+    height: 400px;
+    width: 600px;
+    background-image: url(./undraw_percentages_re_a1ao.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+    background-color: rgb(128, 114, 109);
+    color: white;
+}
+
+.skillcontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.skillgroup{
+    display: flex;
+    flex: 0.9;
+    justify-content: space-around;
+    font-size: 100px;
+    padding: 30px;
+    margin: 40px;
+    width: 100px;
+}
+.skillbox1{
+    height: 120px;
+    width: 200px;
+    border: 6px solid rgb(248, 246, 245);
+    
+}
+.skillbox > h4{
+    color: rgb(253, 68, 0);
+}

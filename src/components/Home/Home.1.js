@@ -3,15 +3,17 @@ import { Element } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
 import { PiHandWavingFill } from "react-icons/pi";
 import Resume from '../Assest/undraw_percentages_re_a1ao.svg';
+import homeimg from "../home2.jpg"
 
 export function Home() {
     return (
         <>
             <Element className='home' name='Home'>
-                <div>
+            
+                <div class="container-fluid">
                     <div className='background'>
                         <div className='content'>
-                            <h1>Hii, <span><PiHandWavingFill />   </span><br></br>
+                            <h1>Hii, <span><PiHandWavingFill />  </span><br></br>
                                 <h1>I am </h1>
                                 <Typewriter
                                     options={{
@@ -22,7 +24,7 @@ export function Home() {
                                     }} />
                             </h1>
                             <p>
-                                im Manickaraj,a web Developer with a Strong passion for Exploring and learing.<br></br>
+                                i am <span>Manickaraj</span> , a web Developer with a Strong passion for Exploring and learing.<br></br>
                                 my ethusisam for web development has led me to choose it as my career path and <br></br>i would make good UI page with greater user experience(UX )
                             </p><br></br>
 
@@ -37,6 +39,7 @@ export function Home() {
 
 
                 </div>
+         
             </Element>
 
         </>

@@ -1,53 +1,36 @@
-body{
-    height: 100vh;
+.project{
+    background-color: black;
+    height: 100%;
     width: 100%;
-
+}
+.cardlist{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     
 }
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+.cardlist .card{
+    width: 30%;
 }
-.project{
-    height: 100vh;
+.card h1{
+    text-align: center;
+    color: purple;
+    font-weight: bolder;
+}
+.card img{
+    height: 50%;
     width: 100%;
-    background-color:rgb(0, 0, 36);
-    border: 1px solid rgb(246, 255, 0);
+    object-fit: contain;
+    
+}
+p{
+    text-align: center;
+    font-weight: ;
 }
 .projectlogo{
-    color: rgb(255, 94, 0);
-    font-size: 58px;
+    text-align: center;
 }
-.projectlogo2{
-    color: aliceblue;
-}
-.projectflex{
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    margin: 20px 0px;
-}
-.card{
-    display: flex;
-    justify-content: space-around;
-}
-.box{
-    width: 400px;
-    height: 500px;
-    background-color: aliceblue;
-    color: black;
-    box-shadow: 10px 63px 128px -2px rgb(159, 147, 136);
-
-}
-.cardbtn{
-    top: 400px;
-    left: 115px;
-    color: orangered;
-}
-.pro_img{
-    height: 200px;
-    width: 200px;
-    
-    background-color: aqua;
+span{
+    ;
 }

@@ -57,10 +57,10 @@ function Contact() {
           </div>
 
           <div className='footer'>
-              <h1>
+              <h4>
                 &copy;2024 Copyright <br></br>
                  Proudly It Made By Manick
-              </h1>
+              </h4>
 
             </div>
 

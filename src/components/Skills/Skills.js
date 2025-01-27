@@ -17,20 +17,20 @@ function Skills() {
   return (
     <Element  id='Skills' name='skills' className='skillmain'>
       <div>
-                <div className='skilllogo'><h3> <span >My</span>Skills</h3></div>
+                <div className='skilllogo'><h1> <span >My</span>Skills</h1></div>
       </div>
         
         <div className='skillcontainer'>
-            <div> Skills
+            <div className='skills'> Skills
               <h2>Language</h2>
               <p>
                 Python
               </p>
-              <h2>Web Technologies</h2>
+              <h2 bg>Web Technologies</h2>
               <p>
-                `HTML
+                 HTML
                  CSS 
-                 Javascript`
+                 Javascript
               </p>
               <h2>Frame Works </h2>
               <p>
@@ -44,30 +44,27 @@ function Skills() {
               <p>
               GitTools
               </p>
-              
 
-              
-              
-              
+
             </div>
 
             <div className='skillgroup'>
               <div className='skillbox'>
-                   <h4><MdOutlineHtml /></h4>
-                   <h4><SiCsswizardry /></h4>
-                   <h4><SiJavascript /></h4>
+                   <h1><MdOutlineHtml /></h1>
+                   <h1><SiCsswizardry /></h1>
+                   <h1><SiJavascript /></h1>
               </div>
 
               <div className='skillbox'>
-                    <h4><FaSass /></h4>
-                    <h4><FaBootstrap /></h4>
-                    <h4><SiPython /></h4>
+                    <h1><FaSass /></h1>
+                    <h1><FaBootstrap /></h1>
+                    <h1><SiPython /></h1>
               </div>
               
               <div className='skillbox'>
-                    <h4><FaReact /></h4>
-                    <h4><TbBrandDjango /></h4>
-                    <h4><AiOutlineConsoleSql /></h4>
+                    <h1><FaReact /></h1>
+                    <h1><TbBrandDjango /></h1>
+                    <h1><AiOutlineConsoleSql /></h1>
               </div>
              
             </div>

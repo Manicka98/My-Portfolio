@@ -9,14 +9,14 @@ body{
     box-sizing: border-box;
 }
 .skillmain{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color:rgb(0, 0, 36);
     border: 1px solid rgb(246, 255, 0);
 }
 .skilllogo{
     color:white;
-    font-size: 64px;
+    font-size: 12px;
     margin-top: 80px;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -34,25 +34,53 @@ body{
 }
 
 .skillcontainer{
+    max-width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+  
 
 }
+.skills{
+    width: 40%;
+    margin-top: 40px;
+    
+
+
+}
+
+.skills h2{
+    margin-left: 30px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.skills p{
+    margin-left: 60px;
+    padding: 10px;
+    font-size: large;
+    color: white;
+}
 .skillgroup{
+    width: 100%;
     display: flex;
     flex: 0.9;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 100px;
     padding: 30px;
     margin: 40px;
-    width: 100px;
+    
+
 }
 .skillbox1{
-    height: 120px;
+    display: flex;
+    height: 520px;
     width: 200px;
     border: 6px solid rgb(248, 246, 245);
     
+    
 }
-.skillbox > h4{
+.skillbox > h1{
+    font-size: 100px;
+    height: 200px;
     color: rgb(253, 68, 0);
 }

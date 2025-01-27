@@ -3,6 +3,8 @@ import '../Navbar/nav.css';
 import{ Link } from 'react-scroll';
 import Home from '../Home/Home.1';
 
+
+
 function Nav() {
   return (
   <>

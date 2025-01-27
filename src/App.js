@@ -5,6 +5,7 @@ import Skills from './components/Skills/Skills';
 import Project from './components/Projects/Project';
 import Contact from './components/Contact/Contact';
 import Particle from './components/Particle';
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Project/>
       <Contact/>
       <Particle/>
+    
       
     </div>
   );
